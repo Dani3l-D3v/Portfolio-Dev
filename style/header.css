@@ -1,0 +1,94 @@
+.inicio {
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    padding: 150px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.dev {
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+}
+
+.foto {
+    border-radius: 50%;
+    border: solid var(--red);
+}
+
+.cont-foto {
+    margin-top: 20px;
+}
+
+.c {
+    height: 40px;
+    width: 754px;
+    padding: 80px;
+}
+
+.cont {
+    height: 40px;
+    width: 754px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 24px;
+        height: 24px;
+        object-fit: cover;
+    }
+}
+
+.cont-cont {
+    background-color: var(--gray-300);
+    width: 114px;
+    height: 40px;
+    border-radius: 999px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.html {
+    filter: invert(60%) sepia(13%) saturate(5325%) hue-rotate(313deg) brightness(90%) contrast(97%);
+}
+
+.css {
+    filter: invert(65%) sepia(49%) saturate(4096%) hue-rotate(179deg) brightness(90%) contrast(90%);
+}
+
+.java {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(64%) saturate(7197%) hue-rotate(311deg) brightness(96%) contrast(92%);
+}
+
+.react {
+    filter: invert(65%) sepia(49%) saturate(4096%) hue-rotate(179deg) brightness(90%) contrast(90%);
+}
+
+.node {
+    filter: invert(74%) sepia(5%) saturate(4638%) hue-rotate(49deg) brightness(92%) contrast(83%);
+}
+
+.setinha {
+    padding: 92px;
+
+    img {
+        width: 32px;
+        height: 32px;
+    }
+}

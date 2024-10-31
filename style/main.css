@@ -1,0 +1,47 @@
+main {
+    padding: 72px 120px 144px 120px;
+    background-color: var(--gray-200);
+    text-align: center;
+    height: 917px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc {
+    padding: 56px;
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: center;
+
+    figure {
+        background-color: var(--gray-300);
+        width: 330px;
+        height: 280px;
+        border-radius: 12px;
+
+        &:hover {
+            border: 1.5px solid var(--gray-400);
+        }
+
+        figcaption {
+            padding: 12px;
+
+            p {
+                padding: 4px;
+            }
+            img {
+                width: 306px;
+                height: 156px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+        }
+    }
+}
+

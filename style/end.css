@@ -1,0 +1,98 @@
+.end {
+    background-image: url(../assets/Background_Contacts.png);
+    background-size: cover;
+    height: 787px;
+    width: 100%;
+    gap: 128px 120px 200px 120px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .conta {
+        padding: 48px;
+    }
+
+    p {
+        padding: 8px;
+    }
+
+    .contato {
+        width: 400px;
+        height: 320px;
+        padding: 48px;
+        align-items: center;
+
+        selection {
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+        }
+        .social {
+            background-color: var(--gray-300);
+            height: 68px;
+            width: 400px;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover {
+                border: 1.5px solid var(--blue);
+                img {
+                    filter: invert(58%) sepia(94%) saturate(2457%) hue-rotate(180deg)
+                      brightness(92%) contrast(86%);
+                  }
+            }
+        }
+        
+    }
+}
+
+.spac {
+    align-items: center;
+}
+
+.link {
+    width: 28px;
+    height: 28px;
+}
+
+.inta {
+    width: 28px;
+    height: 28px;
+}
+
+.hub {
+    width: 28px;
+    height: 28px;
+}
+
+.email {
+    width: 28px;
+    height: 28px;
+}
+
+.set-dire {
+    height: 20px;
+    width: 20px;
+    filter: invert(65%) sepia(49%) saturate(4096%) hue-rotate(179deg) brightness(90%) contrast(90%);
+}
+
+.p {
+    width: 288px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.conteu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes {
+    align-items: center;
+}

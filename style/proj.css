@@ -1,0 +1,50 @@
+.proj {
+    background-color: var(--gray-100);
+    text-align: center;
+    height: 480px;
+    width: 100%;
+    padding: 88px 120px 120px 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.des {
+    padding: 56px;
+}
+
+.serv {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 888px;
+
+        figure {
+            width: 280px;
+            height: 155px;
+            border-radius: 12px;
+            border: 1px solid var(--gray-300);
+            padding: 20px;
+
+            figcaption{
+                p {
+                    padding: 6px;
+                }
+                img {
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+        }
+}
+
+.devi {
+    filter: brightness(0) saturate(100%) invert(46%) sepia(86%) saturate(348%) hue-rotate(233deg) brightness(100%) contrast(96%);
+}
+
+.hard {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(64%) saturate(7197%) hue-rotate(311deg) brightness(96%) contrast(92%);
+}
+
+.infi {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(67%) saturate(326%) hue-rotate(49deg) brightness(98%) contrast(97%);
+}
